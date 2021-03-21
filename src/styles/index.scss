@@ -1,0 +1,17 @@
+@use "vars";
+@use "wp-logo";
+@use "title";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  background-color: vars.$bg-main;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
